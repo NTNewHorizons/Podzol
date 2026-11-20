@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8.5-GTNH",
+  "mixinextras": {"minVersion": "0.5.0"},
+  "package": "com.ntnewhorizons.podzol.mixins",
+  "refmap": "mixins.podzol.refmap.json",
+  "target": "@env(DEFAULT)",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": ["MixinWorld_NoclipPlacement"],
+  "client": ["MixinMinecraft_PickBlock", "MixinGuiLanguageList_FastLang", "MixinWorldRenderer_NoclipInsideFaces"],
+  "server": []
+}
